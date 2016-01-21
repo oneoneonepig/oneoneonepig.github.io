@@ -1,0 +1,9 @@
+body {
+	background-color: rgb(220,220,220);
+	font-size: medium;
+}
+@media screen and (max-device-width: 481px) {
+	body {
+		background-color: rgb(125,125,125);
+	}
+}
