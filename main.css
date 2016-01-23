@@ -1,9 +1,93 @@
 body {
-	background-color: rgb(220,220,220);
+//	background-color: rgb(230,230,230);
+	background-image: url(bg.jpg);
+	font-family: sans-serif;
 	font-size: medium;
+	width: 745px;
+	margin-left: auto;
+	margin-right: auto;
 }
-@media screen and (max-device-width: 481px) {
-	body {
-		background-color: rgb(125,125,125);
-	}
+.blockBorder {
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+	border-color: rgb(220,220,220);
+}
+#banner {
+	height: 100px;
+	background-color: rgb(255,255,255);
+	position: relative;
+	clear: both;
+	margin-bottom: 10px;
+}
+#banner #logo {
+	padding-left: 0.8em;
+	float: left;
+}
+#banner #slogan {
+	font-family: fantasy;
+	position: absolute;
+	right: 0.4em;
+	bottom: 0.2em;
+}
+#sidebar {
+	background-color: rgb(255,255,255);
+	float: left;
+	width: 180px;
+	line-height: 1.2em;
+	height: 250px;
+}
+#sidebar ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+#sidebar ul li{
+	padding: 15px 0px 0px 15px;
+}
+/*#sidebar ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+#sidebar ul li a:hover, a:active {
+	background-color: rgb(220,220,220);
+}*/
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	transition-duration: .2s;
+  	transition-timing-function: linear;
+  	border-radius: 5px;
+}
+a:link, a:visited {
+	padding: 2px;
+	background-color: rgb(255,255,255);
+}
+a:hover, a:active, a.activeTab {
+	padding: 2px;
+	background-color: rgb(220,220,220);
+}
+#content {
+	background-color: rgb(255,255,255);
+	margin-left: 195px;
+	padding: 20px;
+	min-height: 480px;
+	font-size: .9em;
+}
+#footer {
+	background-color: rgb(255,255,255);
+	clear: both;
+	text-align: center;
+	margin-top: 10px;
+	font-size: .8em;
+	padding: 2px 0px;
+}
+span.placeTitle {
+	font-size: 1.5em;
+	color: red;
+}
+span.placecontent {
+
 }
